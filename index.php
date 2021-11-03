@@ -4,6 +4,7 @@
 <title>
 <?php echo (isset($_GET['title'])) ? $_GET['title'] : 'The Index'?>
 </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>
