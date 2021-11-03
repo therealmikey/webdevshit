@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-<?php echo (isset($_GET['title'])) ? $_GET['title'] : 'The Index'?>
-</title>
+    <title><?php echo (isset($_GET['title'])) ? $_GET['title'] : 'The Index'?</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>
-<?php echo (isset($_GET['title'])) ? $_GET['title'] : 'The Index'?>
-</h1>
+<h1><?php echo (isset($_GET['title'])) ? $_GET['title'] : 'The Index'?></h1>
 <p>All of Mikey's recipes of chaos</p>
 <i>Use 'ctrl' + 'f' to find recipes</i>
 <hr>
